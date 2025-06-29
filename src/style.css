@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #1b1b1d;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#canvas {
+    display: block;
+    cursor: crosshair;
+}
+
+.controls {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #666;
+}
+
+.btn.active {
+    background: #00f0ff;
+    color: #000;
+}
+
+.info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+#music-controls {
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(21, 20, 20);
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1000;
+    box-shadow: 0 0 10px #00f0ff;
+}
+
+#music-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px #00f0ff;
+}
+
+.player-buttons button {
+    background: none;
+    border: none;
+    color: #00f0ff;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.player-buttons button:hover {
+    transform: scale(1.2);
+}

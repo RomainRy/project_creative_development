@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + Vue</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+  <div id="music-controls">
+    <img id="music-icon" src="public/musique_cyberpunk.jpg" alt="Musique" />
+    <div class="player-buttons">
+      <button id="playPauseBtn">▶️</button>
+      <button id="restartMusicBtn">⏮️</button>
+    </div>
+  </div>
+
+  <audio id="music-player" src="public/Hyper - Spoiler.mp4"></audio>
+
+  <div id="app"></div>
+  <canvas id="canvas"></canvas>
+
+  <div class="controls">
+    <button id="restartBtn" class="btn">Relancer Animation</button>
+  </div>
+
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
