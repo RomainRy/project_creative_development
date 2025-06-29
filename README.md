@@ -8,8 +8,8 @@
 ## Projet
 
 ```bash
-git clone git@github.com:RomainRy/Creative-development.git
-cd project_creative_development
+git@github.com:RomainRy/project_creative_development.git
+cd projet_creative_development
 npm install
 npm run dev
 ```
