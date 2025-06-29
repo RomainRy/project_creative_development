@@ -1,5 +1,26 @@
-# Vue 3 + Vite
+# Cyberpunk 2
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Groupe
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+- Yani Bougara
+- Romain Royer
+
+## Projet
+
+```bash
+git clone git@github.com:RomainRy/Creative-development.git
+cd project_creative_development
+npm install
+npm run dev
+```
+
+## Moodboard
+![Capture d’écran 2025-06-23 170240](https://github.com/user-attachments/assets/9ef3bd1b-6407-4650-91a3-e8372516c30c)
+
+## Fonctionnalités principales
+
+- **Animation de base** : L'animation démarre automatiquement dès le chargement de la page.
+- **Effet de brume interactif** : Un effet de brume apparaît et suit la souris lorsque vous la déplacez sur la zone d'animation.
+- **Contrôle de la musique** : Un bouton permet de lancer ou mettre en pause la musique d'ambiance.
+- **Relancer l'animation** : Un bouton dédié permet de relancer l'animation à tout moment.
+
